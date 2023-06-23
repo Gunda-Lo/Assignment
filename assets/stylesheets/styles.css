@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(/assets/fonts/Gilroy/Gilroy-Bold.ttf) format('truetype');
+    src: url(/assets/fonts/Gilroy/Gilroy-Medium.ttf) format(truetype);
+    src: url(/assets/fonts/Gilroy/Gilroy-SemiBold.ttf) format(truetype);
+}
+
+header {
+    background-color: black;
+}
