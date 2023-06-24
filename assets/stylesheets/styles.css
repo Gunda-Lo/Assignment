@@ -1,3 +1,4 @@
+/*font family  declaration*/
 @font-face {
     font-family: 'Gilroy-Bold';
     src: url(/assets/fonts/Gilroy/Gilroy-Bold.ttf), format(ttf)
@@ -17,8 +18,9 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    gap: 91px;
+    padding: 4px 50px;
+    gap: 45px;
+    position: relative;
 }
 
 #frame-1{
@@ -31,8 +33,8 @@ header {
 nav a{
     font-family: 'gilroy medium';
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500px;
 }
 
 #group-1{
@@ -40,3 +42,32 @@ nav a{
    align-items: center; 
 }
 
+#group-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;.
+}
+
+.login-button{
+    color: #0065FE;
+    font-size: 14px;
+}
+.try-button{
+    color: #FFFFFF;
+    background-color: #0065FE;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    line-height: 12px;
+}
+/*header background color design*/
+.bg-aurora{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#aurora-1{
+position: absolute;
+}
